@@ -4,6 +4,7 @@ My fixes:
 * Updated cheerion to 0.19.0
 * Set decodeEntities to false
 
+
 > Read and manipulate HTML documents using CSS selectors.
 
 Use this task to read and transform your HTML documents.  Typical use cases include:
