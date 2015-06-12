@@ -30,8 +30,10 @@ module.exports = function(grunt) {
           grunt.log.error('Read config missing selector, attribute, and/or writeto options');
         } else {
 
-          var vals = $(option.selector).map(function(i,elem){
-            return $(elem).attr(option.attribute);
+          var vals = [];
+          
+          $(option.selector).each(function(i,elem){
+            vals.push($(elem).attr(option.attribute));
           });
 
           vals = vals.filter(function(item){
