@@ -1,4 +1,8 @@
-# grunt-dom-munger [![Build Status](https://travis-ci.org/cgross/grunt-dom-munger.png?branch=master)](https://travis-ci.org/cgross/grunt-dom-munger)
+# grunt-dom-munger
+
+My fixes:
+* Updated cheerion to 0.19.0
+* Set decodeEntities to false
 
 > Read and manipulate HTML documents using CSS selectors.
 
