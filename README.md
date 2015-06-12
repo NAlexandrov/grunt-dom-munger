@@ -1,7 +1,7 @@
 # grunt-dom-munger
 
 My fixes:
-* Updated cheerion to 0.19.0
+* Updated cheerio to 0.19.0
 * Set decodeEntities to false
 
 
